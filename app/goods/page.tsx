@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image';
 import { Si1001Tracklists } from "react-icons/si";
-import tonneru from "../../public/images/tonneru.gif"
 import MotionWrapper from '@/components/framer-motion';
 import challengtothelimit from "@/public/images/challengetothelimit.jpg"
 import Link from 'next/link';

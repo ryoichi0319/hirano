@@ -4,7 +4,6 @@ import Hero from '../components/hero/Hero';
 import Slider from '@/components/slider/Slider';
 import News from '@/components/news/News';
 import Goods from './goods/page';
-import Link from 'next/link';
 import Live from './live/page';
 
 const items = [

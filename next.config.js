@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images:{
-        domains: ["images.microcms-assets.io", "res.cloudinary.com"],
+        domains: ["images.microcms-assets.io", "res.cloudinary.com","lh3.googleusercontent.com"],
       },
       async headers() {
         return [
