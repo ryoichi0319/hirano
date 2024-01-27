@@ -1,0 +1,23 @@
+/* .img-wrap2 {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-wrap2:before {
+    animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+    background: #64748b;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  @keyframes img-wrap2 {
+    100% {
+      transform: translateX(100%);
+    }
+  } */

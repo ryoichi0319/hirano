@@ -1,0 +1,31 @@
+/* 例: クラス名を変更して適切なスタイリングを適用 */
+.swiper-container-custom {
+    overflow: hidden;
+  }
+  
+ 
+  
+  /* または clip-path を使用する場合 */
+  .swiper-slide-custom {
+    
+  }
+  .swiper-button-next{
+    color: white;
+  }
+  .swiper-button-prev{
+     color: white;
+  }
+  .swiper-pagination-bullet {
+    width: 20px; /* 幅を変更 */
+    height: 20px; /* 高さを変更 */
+    background-color: gray; /* 背景色を変更 */
+    opacity: 0.6; /* 透明度を変更 */
+    margin: 0 8px; /* マージンを変更 */
+  }
+  
+  /* アクティブなページネーションのスタイル */
+  .swiper-pagination-bullet-active {
+
+    background-color: #cf155d; /* アクティブなページの背景色を変更 */
+  }
+  

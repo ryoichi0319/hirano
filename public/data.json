@@ -1,0 +1,149 @@
+{
+  "albums": [
+    { "id": "1",
+      "title": "フェニックス",
+      "image_url":"/images/phoenix.jpg",
+      "release_date": "2023-8-16",
+      "price": "¥2,200",
+      "songs":[
+        "1,フェニックス 朝日放送「やすとものいたって真剣です」 8月度エンディングテーマ",
+        "2,今すぐ嫌いになりたい",
+        "3,Mother",
+        "4,運命の扉",
+        "5,wake up -Re Mix Version- 映画「KAPPEI」劇中使用曲",
+        "6,花笑み"
+      ]
+
+    },
+    { "id":"2",
+      "title": "Challenge To The Limit",
+      "image_url":"/images/challengetothelimit.jpg",
+      "release_date": "2019-11-03",
+      "price": "¥1,200",
+      "songs":[
+        "1,Challenge to the limit",
+        "2,HAPPY RABBIT",
+        "3,えんぴつ"
+      ]
+    },
+    { "id": "3",
+      "title": "ずっとこのままで",
+      "image_url":"/images/ずっとこのままで.jpg",
+      "release_date": "2019-2-24",
+      "price": "¥1,000",
+      "songs":[
+        "1,ずっとこのままで",
+        "2,ミライヲカエルカギ"
+      ]
+    },
+    { "id": "4",
+      "title": "1000年の恋",
+      "image_url":"/images/1000年の恋.jpg",
+      "release_date": "2018-6-16",
+      "price": "¥1,000",
+      "songs":[
+        "1,1000年の恋",
+        "2,wake up"      ]
+    },
+    { "id": "5",
+      "title": "Smiley",
+      "image_url":"/images/smiley.jpg",
+      "release_date": "2017-4-16",
+      "price": "¥1,200",
+      "songs":[
+        "1,Smiley",
+        "2,モンスター",
+        "3,スタートライン"
+      ]
+    },
+    { "id": "6",
+      "title": "dreamride",
+      "image_url":"/images/dreamride.jpg",
+      "release_date": "2016-6-12",
+      "price": "¥1,200",
+      "songs":[
+        "1,ドリームライド",
+        "2,cherry",
+        "3,妖精みたいに小さくなって"
+      ]
+    },
+    { "id": "7",
+      "title": "魔法のパレット",
+      "image_url":"/images/mahou.png",
+      "release_date": "2014-6-6",
+      "price": "¥1,200",
+      "songs":[
+        "1,魔法のパレット",
+        "2,リスタート",
+        "3,タンク"
+      ]
+    },
+    { "id": "8",
+      "title": "トンネルの向こう側",
+      "image_url":"/images/tonneru.gif",
+      "release_date": "2020-03-27",
+      "price": "¥1,000",
+      "songs":[
+        "1,トンネルの向こう側",
+        "2,ヘッドライト",
+        "3,笑顔よ集合"
+      ]
+    },
+    { "id": "9",
+    "title": "Thanks Color",
+    "image_url":"/images/thanks.jpg",
+    "release_date": "2015-11-3",
+    "price": "¥2,300",
+    "songs":[
+      "1,ティンカティンクティンクルティンクル",
+      "2,PONY",
+      "3,解放",
+      "4,月の光",
+      "5,ウソツキ",
+      "6,Fly Away",
+      "7,サンクスマム"
+    ]
+  },
+  { "id": "10",
+    "title": "パワーオブラブ",
+    "image_url":"/images/power.jpg",
+    "release_date": "2012-7-15",
+    "price": "¥2,100",
+    "songs":[
+      "1,POWER OF LOVE",
+      "2,ギュッ",
+      "3,ひとりじゃないこと",
+      "4,甘い嘘",
+      "5,サマーバケーション",
+      "6,ミエナイイト",
+      "7,頑張って"
+    ]
+  },
+  { "id": "11",
+    "title": "奇跡の瞬間",
+    "image_url":"/images/kiseki.jpg",
+    "release_date": "2011-9-23",
+    "price": "¥2,100",
+    "songs":[
+      "1,Repeat",
+      "2,ビター",
+      "3,鬼ごっこ",
+      "4,ビビデバビデブー",
+      "5,奇跡みたいなこと"
+    ]
+  },
+  { "id": "13",
+    "title": "HAPPY NOTE",
+    "image_url":"/images/happynote.gif",
+    "release_date": "2010-11-4",
+    "price": "¥1,000",
+    "songs":[
+      "1,HAPPY NOTE",
+      "2,青信号",
+      "3,umbrella",
+      "4,距離が縮まっていく音",
+      "5,歌手"
+    ]
+  }
+  ]
+}
