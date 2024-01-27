@@ -21,7 +21,7 @@ const Profile = () => {
         />
     </div>
     <div className=" flex-shrink  p-5 max-w-5xl mx-auto"> 
-      <p>大阪出身ピアノ弾き語りシンガーソングライター。
+      <p>大阪出身ピアノ弾き語りシンガーソングライター
 <br />
 ハイトーンボイスのボーカルとピアノを軸に
 POPでHAPPYな旋律を
