@@ -12,10 +12,10 @@ const Goods = () => {
     <div className=' w-full bg-red-300 h-[500px] mt-24 relative '>
         <div className=' max-w-5xl mx-auto '>
             <div className=' flex gap-4'>
-        <Si1001Tracklists className=" w-14 h-14 pt-6"/>
 
-           <h1 className='text-white text-7xl pt-6'>Goods</h1> 
-           <Si1001Tracklists className=" w-14 h-14 pt-6"/>
+        <h1 className="mb-6 font-thin text-gray-500 text-7xl pt-7  ">
+        Goods
+        </h1>
            </div>
 
           
@@ -23,7 +23,7 @@ const Goods = () => {
     <div className=' mx-auto'>
       <MotionWrapper customTransition={{duration:2, delay:0.2}} shouldAnimate={true}>
         <Link href={"https://thebase.com"}>
-          <div className=''>
+          <div className=' w-full  mx-auto'>
             <div className=' '>  
               <Si1001Tracklists className="w-72 h-72 mt-10 mr-8 text-red-800 pt-6 mx-auto text-center " />
             </div>

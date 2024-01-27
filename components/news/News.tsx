@@ -11,25 +11,29 @@ const News = async () => {
   // 投稿がない場合
   if (posts.length === 0) {
     return (
-      <div id="news" className="text-center text-sm text-gray-500 max-w-5xl mx-auto mt-14 space-y-5 ">
-        <h1 className="mb-6 font-bold text-5xl">
+      <div id="news" className="  text-gray-500 max-w-5xl mt-14  mx-auto ">
+        <h1 className="mb-6 font-thin text-gray-500 text-6xl pt-7">
           <NewsTitle />
         </h1>
+        <div className=" text-center ">
         投稿はありません
+        </div>
       </div>
     );
   }
 
   // 投稿がある場合
   return (
-    <div id="news" className="  max-w-5xl mx-auto mt-32 md:w-full">
+    <div id="news" className="  max-w-5xl mt-32 md:w-full">
       <div className="space-y-5">
         <h1 className="mb-12 font-bold text-5xl pt-16">
           <NewsTitle />
         </h1>
+        <div className=" mx-auto">
         {posts.map((post) => (
           <PostItem key={post.id} post={post} userId={user?.id} />
         ))}
+        </div>
       </div>
       
     </div>

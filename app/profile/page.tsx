@@ -7,8 +7,9 @@ import React from 'react'
 const Profile = () => {
 
   return (
-    <div className="  mx-auto">
-      <h1 className=" text-2xl font-bold md:text-center mt-5">Profile</h1>
+    <div className="  mx-auto max-w-5xl">
+        <h1 className="mb-6 font-thin text-gray-500 text-6xl pt-7 md:ml-16 ml-5">
+        Profile</h1>
     <div className=" aspect-[16/9] relative w-[500px] mx-auto">
         <Image
         src={profile2021}

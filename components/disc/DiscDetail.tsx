@@ -35,8 +35,9 @@ const DiscDetail: React.FC<DiscDetailProps> = ({ postId }) => {
 
   return (
     <div className="max-w-5xl mx-auto mt-8 ">
-          <h1 className='text-3xl font-bold md:text-center mb-10 mt-8 text-center '>Discography</h1>
-          <ul className=' gap-10 text-left text-slate-700'>
+          <h1 className="mb-12 font-thin text-gray-500 text-6xl pt-7 md:ml-16 ml-5">
+            Discography</h1>   
+         <ul className=' gap-10 text-left text-slate-700'>
             {data.map((album) => (
               <div key={album.id}>
                 <h2 className=' text-3xl mb-3 font-bold  text-center '>{album.title}</h2>

@@ -10,7 +10,8 @@ const Goods = () => {
     <div className=' h-[600px] mt-20 max-w-5xl mx-auto'>
     <div className=' bg-slate-600  text-white w-full h-[600px] mx-auto '>
 <MotionWrapperWithContainerAndItem inView={true} itemVariants={{}}>
-<h1 className=' text-6xl font-bold lg:ml-28 lg:pt-10 '>Goods</h1>
+<h1 className=' text-6xl font-bold lg:ml-28 lg:pt-10 '>
+  Goods</h1>
 </MotionWrapperWithContainerAndItem>
 
 

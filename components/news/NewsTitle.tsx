@@ -8,9 +8,9 @@ const NewsTitle = () => {
   return (
     <div>
       {word.map((w,i) =>(
-        <div key={i} className=' inline-block' >
+        <div key={i} className=' inline-block ' >
          <MotionWrapper customTransition={{duration:3,  delay: i * 0.2 }} shouldAnimate={true}>
-          <div>{w}</div>
+          <div className=' mt-12 '>{w}</div>
          </MotionWrapper>
          </div>
       ))

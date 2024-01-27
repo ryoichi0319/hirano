@@ -78,7 +78,7 @@ export default async function LiveInfo() {
     <div className="max-w-5xl mx-auto mt-8 overflow-auto ">
        <div id="news" className="space-y-5 max-w-5xl mx-auto mt-14 md:w-full">
       <div className="space-y-5">
-        <h1 className="mb-6 font-bold text-5xl pt-8">
+        <h1 className="mb-6 font-thin text-gray-500 text-6xl pt-7">
          LIVE
         </h1>
         

@@ -29,8 +29,9 @@ const Disc = () => {
 
 
   return (
-    <div className="max-w-5xl mx-auto mt-8">
-        <h1 className='text-2xl font-bold mt-5  mb-10 text-center'>Discography</h1>
+    <div className="max-w-5xl mx-auto ">
+        <h1 className="mb-12 font-thin text-gray-500 text-6xl pt-7 md:ml-16 ml-5">
+            Discography</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.map((album) => (
             <div key={album.id} className='text-center  mb-5'>
