@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest, res: NextResponse) {
   try {
-    const response = await fetch('http://localhost:3000/data.json',{
+    const response = await fetch('https://hirano.vercel.app/data.json',{
       cache:"no-store"
     })
     const data = await response.json();

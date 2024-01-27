@@ -18,7 +18,7 @@ const Disc = () => {
   useEffect(() => {
     setLoading(true);
 
-    fetch("http://localhost:3000/api/disc", { cache: "no-store" })
+    fetch("https://hirano.vercel.app/api/disc", { cache: "no-store" })
       .then((response) => response.json())
       .then((data) => {
         setData(data.albums);

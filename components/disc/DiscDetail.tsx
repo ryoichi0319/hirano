@@ -23,7 +23,7 @@ const DiscDetail: React.FC<DiscDetailProps> = ({ postId }) => {
   useEffect(() => {
     setLoading(true);
 
-    fetch("http://localhost:3000/api/disc", { cache: "no-store" })
+    fetch("https://hirano.vercel.app/api/disc", { cache: "no-store" })
       .then((response) => response.json())
       .then((data) => {
         // postId に合致するアルバムだけを選別して setData で更新
