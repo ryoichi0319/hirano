@@ -13,7 +13,6 @@ interface AuthorPageProps {
 // ユーザー投稿詳細ページ
 const AuthorDetailPage = async ({ params, searchParams }: AuthorPageProps) => {
   const { userId } = params
-  const { page, perPage } = searchParams
 
   
 
